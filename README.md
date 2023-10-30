@@ -2,23 +2,6 @@
     <img src="./assets/img/logo.png" width="250" height="200">
 </p>
 <h1 align="center">哔哩哔哩-API收集整理</h1>
-<p align="center" class="shields">
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/issues" style="text-decoration:none">
-        <img src="https://img.shields.io/github/issues/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub issues"/>
-    </a>
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/stargazers" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/stars/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub stars"/>
-    </a>
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/network" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/forks/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub forks"/>
-    </a>
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/actions">
-        <img src="https://img.shields.io/github/actions/workflow/status/SocialSisterYi/bilibili-API-collect/vuepress-deploy.yml">
-    </a>
-    <a href="https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/LICENSE" style="text-decoration:none" >
-        <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="GitHub license"/>
-    </a>
-</p>
 
 <a href="https://trendshift.io/repositories/3218" target="_blank"><img src="https://trendshift.io/api/badge/repositories/3218" alt="SocialSisterYi%2Fbilibili-API-collect | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
@@ -30,10 +13,6 @@
 本文档探讨的对象是主站业务接口，[官方开放平台](https://openhome.bilibili.com/doc) 和 [直播开放平台](https://open-live.bilibili.com/document/) 均不属于本项目范畴，请移步
 
 B站 API 采用 C/S 结构，大多数接口为 REST API 和 gRPC，少部分接口为 WebSocket；REST API 接口请求数据大多为 url query 表单或 JSON，返回数据大多为 JSON 或 Protobuf，强制使用 https 协议
-
-📖阅读地址：[GithubPages](https://socialsisteryi.github.io/bilibili-API-collect/)
-
-小小的 Demo：~~av583785685~~ [视频失效原因](https://shakaianee.top/archives/56/) ([Youtube备链](https://www.youtube.com/watch?v=nfF91Z6fqGk))
 
 ::: warning ⚠️声明
 
@@ -53,7 +32,6 @@ B站 API 采用 C/S 结构，大多数接口为 REST API 和 gRPC，少部分接
 
 1. 文档二级目录尚未完成
 2. 部分文档较旧，修改与更新没有跟进
-3. 目前文档使用 markdown 语法编写，不易生成编程语言的 SDK，详见 [#604](https://github.com/SocialSisterYi/bilibili-API-collect/issues/604)
 
 更多信息请浏览 [贡献指南](CONTRIBUTING.md)
 
@@ -252,11 +230,6 @@ B站 API 采用 C/S 结构，大多数接口为 REST API 和 gRPC，少部分接
   - [x] [APP 主题](docs/garb/skin.md)
   - [x] [主题色](docs/garb/color.md)
 
-## ✨鸣谢
-
-你们的存在，让社区更美好
-
-[![contributors](https://opencollective.com/bilibili-api-collect/contributors.svg?width=860&button=false)](https://github.com/SocialSisterYi/bilibili-API-collect/graphs/contributors)
 
 ## 📖相关协议基础
 
@@ -268,28 +241,6 @@ xml 序列格式：[传送门](https://www.w3school.com.cn/xml/xml_intro.asp)
 
 protobuf 序列格式：[传送门](https://www.jianshu.com/p/a24c88c0526a )
 
-## 💦交流
-
-<img src="https://avatars.githubusercontent.com/u/45892418" width="100" height="100">
-
-⚠注意：开源社群欢迎交流探讨，**拒绝**咨询、**不支持**合作，**黑产号**一经发现立即拉黑并举报相关 SRC
-
-- QQ 交流群：[邀请链接](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=2rRJXK3zgU5yi3e_4rNLeJYUjMLzw_Jj&authKey=L%2FN3EfZXo3QFjEuHq4ifTgh%2F384UmrYpjl7dbYPhYHtznhfJWxkymxQKObQunmEQ&noverify=0&group_code=560304737)
-- Telegram 交流群：[@bilibili_API_collect_community](https://t.me/bilibili_API_collect_community)
-
-## 🧋发电
-
-欢迎来~~交♂易~~，大家的支持就是我继续开发的动力！
-
-~~请可爱的易姐喝杯奶茶~~
-
-WeChat & Alipay：
-
-<img src="./assets/img/sponsorQR.jpg" width="300" height="300">
-
-OR Aifadian：[https://afdian.net/@ShakaiAneE](https://afdian.net/@ShakaiAneE)
-
-## 🔗相关项目推荐
 
 ### 库及文档
 
